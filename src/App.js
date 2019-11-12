@@ -1,7 +1,7 @@
-import React from "react"
-import { hot } from "react-hot-loader"
+import React from 'react'
+import { hot } from 'react-hot-loader'
 
-const Warning = React.lazy(() => import("./Warning"))
+const Warning = React.lazy(() => import('./Warning'))
 
 class App extends React.Component {
   state = {
@@ -14,7 +14,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Hello World!</h1>
-        <h2 className={count > 10 ? "warning" : ""}>
+        <h2 className={count > 10 ? 'warning' : ''}>
           Count: {this.state.count}
         </h2>
         <button
