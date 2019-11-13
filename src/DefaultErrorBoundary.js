@@ -13,7 +13,7 @@ export default class DefaultErrorBoundary extends React.Component {
   }
 
   static propTypes = {
-      children: propTypes.node.isRequired
+    children: propTypes.node.isRequired
   }
 
   render() {
